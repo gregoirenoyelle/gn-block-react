@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.swiper-bloc .swiper-slide-prev,
+.swiper-bloc .swiper-slide-next {
+    opacity: 0.5;
+}
+
+.swiper-bloc .swiper-button-next,
+.swiper-bloc .swiper-button-prev {
+    color: #767676;
+}
+
+.swiper-bloc .swiper-pagination-bullet-active {
+    background: #767676;
+}
+
+
+/* Style to equalize slide heights */
+.swiper-equal-height .swiper-slide {
+    height: auto !important;
+}
+
+.swiper-equal-height .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.swiper-equal-height .swiper-slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-equal-height .swiper-slide > * {
+    flex: 1;
+}
+
+/* Style for external pagination */
+.swiper-container {
+    position: relative;
+    width: 100%;
+}
+
+.swiper-container .swiper-pagination {
+    position: relative;
+    bottom: auto;
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Style for mobile-only pagination */
+.swiper-pagination.pagination-mobile {
+    display: block;
+}
+
+@media screen and (min-width: 800px) {
+    .swiper-pagination.pagination-mobile {
+        display: none;
+    }
+}

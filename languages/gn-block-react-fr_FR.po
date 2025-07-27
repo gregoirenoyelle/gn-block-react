@@ -1,0 +1,1377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GN Block React 2.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Gregoire Noyelle\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-12-07 12:00+0000\n"
+"PO-Revision-Date: 2025-12-07 12:00+0000\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:27
+msgid "Table of Contents Settings"
+msgstr "Paramètres du sommaire"
+
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:29
+msgid "Text before table of contents"
+msgstr "Texte avant le sommaire"
+
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:32
+msgid "Text displayed before the table of contents list"
+msgstr "Texte affiché avant la liste du sommaire"
+
+#: build/sommaire-auto/render.php:25
+#: src/sommaire-auto/render.php:25
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:17
+msgid "TABLE OF CONTENTS"
+msgstr "SOMMAIRE"
+
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:45
+msgid "Introduction to the topic"
+msgstr "Introduction du sujet"
+
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:50
+msgid "Key points"
+msgstr "Points importants"
+
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:55
+msgid "Content optimization"
+msgstr "Optimisation du contenu"
+
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:60
+msgid "Conclusion"
+msgstr "Conclusion"
+
+#: build/sommaire-auto/index.js:1
+#: src/sommaire-auto/edit.js:39
+msgid "Editor notice: The table of contents is only visible on the front-end."
+msgstr "Note : Le sommaire est visible uniquement sur le site public."
+
+#. Author of the plugin
+#: gn-block-react.php
+msgid "Grégoire Noyelle"
+msgstr ""
+
+#. Author URI of the plugin
+#: gn-block-react.php
+msgid "https://www.gregoire-noyelle.com"
+msgstr ""
+
+#: build/temps-lecture/render.php:10
+#: src/temps-lecture/render.php:10
+#: build/temps-lecture/index.js:1
+#: src/temps-lecture/edit.js:33
+#: src/temps-lecture/edit.js:39
+msgid "min."
+msgstr "min."
+
+#: build/title-archive/render.php:31
+#: src/title-archive/render.php:31
+msgid "Archives"
+msgstr "Archives"
+
+#: build/boutons-partages/index.js:1
+#: build/image-icone/index.js:1
+#: src/boutons-partages/edit.js:37
+#: src/image-icone/edit.js:44
+msgid "Facebook"
+msgstr "Facebook"
+
+#: build/boutons-partages/index.js:1
+#: build/image-icone/index.js:1
+#: src/boutons-partages/edit.js:42
+#: src/image-icone/edit.js:65
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: build/boutons-partages/index.js:1
+#: build/image-icone/index.js:1
+#: src/boutons-partages/edit.js:47
+#: src/image-icone/edit.js:94
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:37
+msgid "Image Video Settings"
+msgstr "Paramètres Image Vidéo"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:39
+msgid "YouTube Video URL"
+msgstr "URL de la vidéo YouTube"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:43
+msgid "Only YouTube videos are supported (youtube.com or youtu.be)"
+msgstr "Seules les vidéos YouTube sont supportées (youtube.com ou youtu.be)"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:46
+msgid "Icon Style"
+msgstr "Style de l'icône"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:48
+msgid "Icon Size"
+msgstr "Taille de l'icône"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:55
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:105
+msgid "Change Image"
+msgstr "Changer l'image"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:117
+msgid "Remove"
+msgstr "Supprimer"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:146
+msgid "Select an Image"
+msgstr "Sélectionner une image"
+
+#: build/retour-haut/index.js:1
+#: src/retour-haut/edit.js:17
+msgid "Button Settings"
+msgstr "Paramètres du bouton"
+
+#: build/retour-haut/index.js:1
+#: src/retour-haut/edit.js:19
+msgid "Right position (px)"
+msgstr "Position à droite (px)"
+
+#: build/retour-haut/index.js:1
+#: src/retour-haut/edit.js:26
+msgid "Bottom position (px)"
+msgstr "Position en bas (px)"
+
+#: build/retour-haut/index.js:1
+#: src/retour-haut/edit.js:33
+msgid "Scroll trigger (px)"
+msgstr "Déclenchement au scroll (px)"
+
+#: build/retour-haut/index.js:1
+#: src/retour-haut/edit.js:41
+msgid "Icon size (px)"
+msgstr "Taille de l'icône (px)"
+
+#: build/retour-haut/index.js:1
+#: src/retour-haut/edit.js:53
+msgid "Editor notice: The final appearance of this button will only appear on the front-end."
+msgstr "Note : L'aspect final de ce bouton apparaîtra uniquement sur le site public."
+
+#: build/retour-haut/index.js:1
+#: src/retour-haut/edit.js:78
+msgid "Back to top"
+msgstr "Retour vers le haut"
+
+#: build/temps-lecture/index.js:1
+#: src/temps-lecture/edit.js:22
+msgid "Reading Time Settings"
+msgstr "Paramètres du temps de lecture"
+
+#: build/temps-lecture/index.js:1
+#: src/temps-lecture/edit.js:24
+msgid "Text before reading time"
+msgstr "Texte avant le temps de lecture"
+
+#: build/temps-lecture/index.js:1
+#: src/temps-lecture/edit.js:27
+msgid "e.g.: Reading time:"
+msgstr "ex: Temps de lecture :"
+
+#: build/temps-lecture/index.js:1
+#: src/temps-lecture/edit.js:30
+msgid "Time unit"
+msgstr "Unité de temps"
+
+#: build/title-archive/index.js:1
+#: src/title-archive/edit.js:31
+msgid "Paragraph"
+msgstr "Paragraphe"
+
+#: build/title-archive/index.js:1
+#: src/title-archive/edit.js:39
+msgid "Archive title (displayed dynamically)"
+msgstr "Titre de l'archive (affiché dynamiquement)"
+
+#: build/title-archive/index.js:1
+#: src/title-archive/edit.js:50
+msgid "Title Settings"
+msgstr "Paramètres du titre"
+
+#: build/title-archive/index.js:1
+#: src/title-archive/edit.js:52
+msgid "HTML Tag"
+msgstr "Balise HTML"
+
+#: build/title-archive/index.js:1
+#: src/title-archive/edit.js:58
+msgid "Prefix"
+msgstr "Préfixe"
+
+#: build/title-archive/index.js:1
+#: src/title-archive/edit.js:61
+msgid "Add a prefix..."
+msgstr "Ajouter un préfixe..."
+
+#: build/title-archive/index.js:1
+#: src/title-archive/edit.js:64
+msgid "Suffix"
+msgstr "Suffixe"
+
+#: build/title-archive/index.js:1
+#: src/title-archive/edit.js:67
+msgid "Add a suffix..."
+msgstr "Ajouter un suffixe..."
+
+#: build/image-video/block.json
+#: src/image-video/block.json
+msgctxt "block title"
+msgid "Image Video"
+msgstr "Image Vidéo"
+
+#: build/image-video/block.json
+#: src/image-video/block.json
+msgctxt "block description"
+msgid "Trigger a video by clicking on an image"
+msgstr "Déclencher une vidéo en cliquant sur une image"
+
+#: build/retour-haut/block.json
+#: src/retour-haut/block.json
+msgctxt "block title"
+msgid "Back to Top"
+msgstr "Retour vers le haut"
+
+#: build/retour-haut/block.json
+#: src/retour-haut/block.json
+msgctxt "block description"
+msgid "Template button to go back to the top of the page."
+msgstr "Bouton de modèle pour aller vers le haut de page."
+
+#: build/slider-image/block.json
+#: src/slider-image/block.json
+msgctxt "block title"
+msgid "Image Slider"
+msgstr "Slider d'images"
+
+#: build/slider-image/block.json
+#: src/slider-image/block.json
+msgctxt "block description"
+msgid "Slider based on Swiffy Slider"
+msgstr "Slider qui repose sur Swiffy Slider"
+
+#: build/slider-image/index.js:1
+#: build/slider/index.js:1
+#: src/slider-image/edit.js:34
+#: src/slider/edit.js:29
+msgid "Slider Settings"
+msgstr "Paramètres du slider"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:36
+msgid "Image Size"
+msgstr "Taille des images"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:39
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:40
+msgid "Medium"
+msgstr "Moyenne"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:41
+msgid "Large"
+msgstr "Grande"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:42
+msgid "Full"
+msgstr "Complète"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:47
+msgid "Image Ratio"
+msgstr "Ratio des images"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:60
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:65
+msgid "Auto-pause"
+msgstr "Pause automatique"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:70
+msgid "Always visible navigation"
+msgstr "Navigation toujours visible"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:75
+msgid "Reveal effect"
+msgstr "Effet de révélation"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:80
+msgid "Show border"
+msgstr "Afficher une bordure"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:85
+msgid "Animation type"
+msgstr "Type d'animation"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:88
+msgid "Slide"
+msgstr "Glissement"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:89
+msgid "Fade"
+msgstr "Fondu"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:90
+msgid "Scale"
+msgstr "Échelle"
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:103
+msgid "Select multiple images for your slider."
+msgstr "Sélectionnez plusieurs images pour votre slider."
+
+#: build/slider-image/index.js:1
+#: build/slider/index.js:1
+#: src/slider-image/edit.js:113
+#: src/slider/edit.js:124
+msgid "Editor notice: The slider is only visible on the front-end."
+msgstr "Note : Le slider est visible uniquement sur le site public."
+
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:138
+msgid "Edit image gallery"
+msgstr "Modifier la galerie d'images"
+
+#: build/slider/block.json
+#: src/slider/block.json
+msgctxt "block title"
+msgid "Swiper Slider"
+msgstr "Slider Swiper"
+
+#: build/slider/block.json
+#: src/slider/block.json
+msgctxt "block description"
+msgid "Adds a slider that can integrate any block."
+msgstr "Ajoute un slider qui peut intégrer n'importe quel bloc."
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:15
+#: src/slider/edit.js:19
+msgid "My title"
+msgstr "Mon titre"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:16
+#: src/slider/edit.js:20
+msgid "My text"
+msgstr "Mon texte"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:31
+msgid "Enable loop"
+msgstr "Activer la boucle"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:36
+msgid "Animation speed (ms)"
+msgstr "Vitesse d'animation (ms)"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:44
+msgid "Delay (ms)"
+msgstr "Délai (ms)"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:52
+msgid "Slides per view"
+msgstr "Nombre de slides visibles"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:60
+msgid "Space between slides (px)"
+msgstr "Espacement des slides (px)"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:68
+msgid "Enable navigation"
+msgstr "Activer la navigation"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:73
+msgid "Enable mobile navigation"
+msgstr "Activer la navigation mobile"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:78
+msgid "Enable pagination everywhere"
+msgstr "Activer la pagination partout"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:83
+msgid "Enable pagination on mobile only"
+msgstr "Activer la pagination sur mobile uniquement"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:88
+msgid "Enable scrollbar"
+msgstr "Activer la barre de défilement"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:93
+msgid "Enable autoplay"
+msgstr "Activer la lecture automatique"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:98
+msgid "Pause on mouse hover"
+msgstr "Mettre en pause au survol de la souris"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:103
+msgid "Center active slide"
+msgstr "Centrer la slide active"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:108
+msgid "Auto height"
+msgstr "Hauteur automatique"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:111
+msgid "Do not use with 'Center active slide'"
+msgstr "Ne pas utiliser avec 'Centrer la slide active'"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:114
+msgid "Equal height for all slides"
+msgstr "Hauteur égale pour toutes les slides"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:117
+msgid "Do not use with 'Auto height'"
+msgstr "Ne pas utiliser avec 'Hauteur automatique'"
+
+#: build/slider/index.js:1
+#: src/slider/edit.js:125
+msgid "To add slides, always duplicate a Slide group."
+msgstr "Pour ajouter des slides, toujours dupliquer un groupe Slide."
+
+#: build/sommaire-auto/block.json
+#: src/sommaire-auto/block.json
+msgctxt "block title"
+msgid "Auto Table of Contents"
+msgstr "Sommaire automatique"
+
+#: build/sommaire-auto/block.json
+#: src/sommaire-auto/block.json
+msgctxt "block description"
+msgid "Automatic table of contents based on H2 headings"
+msgstr "Sommaire automatique basé sur les titres H2 de l'article"
+
+#: build/temps-lecture/block.json
+#: src/temps-lecture/block.json
+msgctxt "block title"
+msgid "Reading Time"
+msgstr "Temps de lecture"
+
+#: build/temps-lecture/block.json
+#: src/temps-lecture/block.json
+msgctxt "block description"
+msgid "Adds the reading time for the article"
+msgstr "Ajoute le temps de lecture de l'article"
+
+#: build/title-archive/block.json
+#: src/title-archive/block.json
+msgctxt "block title"
+msgid "Archive Title with Prefix and Suffix"
+msgstr "Titre archive avec préfixe et suffixe"
+
+#: build/title-archive/block.json
+#: src/title-archive/block.json
+msgctxt "block description"
+msgid "Add a prefix and suffix to archive titles"
+msgstr "Ajouter un préfixe et suffixe au titre des archives"
+
+#: build/boutons-partages/render.php:45
+#: build/boutons-partages/render.php:46
+#: src/boutons-partages/render.php:45
+#: src/boutons-partages/render.php:46
+msgid "Share on Facebook"
+msgstr "Partager sur Facebook"
+
+#: build/boutons-partages/render.php:56
+#: build/boutons-partages/render.php:57
+#: src/boutons-partages/render.php:56
+#: src/boutons-partages/render.php:57
+msgid "Share on LinkedIn"
+msgstr "Partager sur LinkedIn"
+
+#: build/boutons-partages/render.php:67
+#: build/boutons-partages/render.php:68
+#: src/boutons-partages/render.php:67
+#: src/boutons-partages/render.php:68
+msgid "Share on WhatsApp"
+msgstr "Partager sur WhatsApp"
+
+#: build/boutons-partages/render.php:76
+#: src/boutons-partages/render.php:76
+msgid "Content sharing"
+msgstr "Partage de contenu"
+
+#: build/boutons-partages/render.php:78
+#: src/boutons-partages/render.php:78
+#: build/boutons-partages/index.js:1
+#: src/boutons-partages/edit.js:52
+msgid "Send by email"
+msgstr "Envoyer par email"
+
+#: build/boutons-partages/render.php:79
+#: src/boutons-partages/render.php:79
+msgid "Share by email"
+msgstr "Partager par email"
+
+#: build/boutons-partages/render.php:91
+#: build/boutons-partages/render.php:92
+#: src/boutons-partages/render.php:91
+#: src/boutons-partages/render.php:92
+#: build/boutons-partages/index.js:1
+#: src/boutons-partages/edit.js:57
+msgid "Copy link"
+msgstr "Copier le lien"
+
+#: build/boutons-partages/index.js:1
+#: src/boutons-partages/edit.js:35
+msgid "Share Services"
+msgstr "Services de partage"
+
+#: build/boutons-partages/index.js:1
+#: build/resume-ia/index.js:1
+#: src/boutons-partages/edit.js:65
+#: src/resume-ia/edit.js:76
+msgid "Icon Spacing"
+msgstr "Espacement des icônes"
+
+#: build/boutons-partages/index.js:1
+#: src/boutons-partages/edit.js:67
+msgid "Space between icons"
+msgstr "Espacement entre les icônes"
+
+#: build/boutons-partages/block.json
+#: src/boutons-partages/block.json
+msgctxt "block title"
+msgid "Share Buttons"
+msgstr "Boutons de partage"
+
+#: build/boutons-partages/block.json
+#: src/boutons-partages/block.json
+msgctxt "block description"
+msgid "Choose share buttons"
+msgstr "Choisir les boutons de partages"
+
+#: build/compteur-anime/render.php:28
+#: src/compteur-anime/render.php:28
+#, php-format
+msgid "Counter: %s%s%s"
+msgstr "Compteur : %s%s%s"
+
+#: build/compteur-anime/index.js:1
+#: src/compteur-anime/edit.js:22
+msgid "Counter Settings"
+msgstr "Réglages du compteur"
+
+#: build/compteur-anime/index.js:1
+#: src/compteur-anime/edit.js:24
+msgid "Start number"
+msgstr "Nombre de départ"
+
+#: build/compteur-anime/index.js:1
+#: src/compteur-anime/edit.js:30
+msgid "End number"
+msgstr "Nombre final"
+
+#: build/compteur-anime/index.js:1
+#: src/compteur-anime/edit.js:36
+msgid "Add + sign"
+msgstr "Ajouter le signe +"
+
+#: build/compteur-anime/index.js:1
+#: src/compteur-anime/edit.js:41
+msgid "Unit"
+msgstr "Unité"
+
+#: build/compteur-anime/index.js:1
+#: src/compteur-anime/edit.js:46
+msgid "Speed in ms (default 900)"
+msgstr "Vitesse en ms (900 par défaut)"
+
+#: build/compteur-anime/block.json
+#: src/compteur-anime/block.json
+msgctxt "block title"
+msgid "Animated Counter"
+msgstr "Compteur animé"
+
+#: build/compteur-anime/block.json
+#: src/compteur-anime/block.json
+msgctxt "block description"
+msgid "An animated counter with visual effect"
+msgstr "Un compteur animé avec effet visuel"
+
+#: build/image-icone/render.php:25
+#: src/image-icone/render.php:25
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:103
+msgid "Icon"
+msgstr "Icône"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:108
+msgid "Icon Settings"
+msgstr "Paramètres de l'icône"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:110
+msgid "Choose an icon"
+msgstr "Choisir une icône"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:116
+msgid "Aria Label (accessibility)"
+msgstr "Aria Label (accessibilité)"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:119
+msgid "Text read by screen readers"
+msgstr "Texte lu par les lecteurs d'écran"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:122
+msgid "URL Link (optional)"
+msgstr "Lien URL (optionnel)"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:128
+msgid "Open in new tab"
+msgstr "Ouvrir dans un nouvel onglet"
+
+#: build/image-icone/block.json
+#: src/image-icone/block.json
+msgctxt "block title"
+msgid "Icon Image"
+msgstr "Image Icones"
+
+#: build/image-icone/block.json
+#: src/image-icone/block.json
+msgctxt "block description"
+msgid "Add an icon"
+msgstr "Pour ajouter un icône"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:24
+msgid "Arrow down"
+msgstr "Flèche bas"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:25
+msgid "Arrow left"
+msgstr "Flèche gauche"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:26
+msgid "Arrow right"
+msgstr "Flèche droite"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:27
+msgid "Arrow up"
+msgstr "Flèche haut"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:28
+msgid "Bicycle"
+msgstr "Vélo"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:29
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:30
+msgid "Calendar 2"
+msgstr "Calendrier 2"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:31
+msgid "Car"
+msgstr "Voiture"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:32
+msgid "Chevron down"
+msgstr "Chevron bas"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:33
+msgid "Chevron left"
+msgstr "Chevron gauche"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:34
+msgid "Chevron right"
+msgstr "Chevron droite"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:35
+msgid "Chevron up"
+msgstr "Chevron haut"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:36
+msgid "Closing quote"
+msgstr "Guillemet fermant"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:37
+msgid "Dialogue"
+msgstr "Dialogue"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:38
+msgid "Donation"
+msgstr "Don"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:39
+msgid "Double chevron left"
+msgstr "Double chevron gauche"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:40
+msgid "Double chevron right"
+msgstr "Double chevron droite"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:41
+msgid "Download"
+msgstr "Téléchargement"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:42
+msgid "Email"
+msgstr "Email"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:43
+msgid "Energy"
+msgstr "Énergie"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:45
+msgid "Flag"
+msgstr "Drapeau"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:46
+msgid "Folder"
+msgstr "Dossier"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:47
+msgid "Folder check"
+msgstr "Dossier validé"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:48
+msgid "Group"
+msgstr "Groupe"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:49
+msgid "Group 2"
+msgstr "Groupe 2"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:50
+msgid "Group 3"
+msgstr "Groupe 3"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:51
+msgid "Growth"
+msgstr "Croissance"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:52
+msgid "Healthcare worker"
+msgstr "Soignant"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:53
+msgid "Home"
+msgstr "Maison"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:54
+msgid "Hot air balloon"
+msgstr "Montgolfière"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:55
+msgid "Idea 1"
+msgstr "Idée 1"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:56
+msgid "Idea 2"
+msgstr "Idée 2"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:57
+msgid "Industry"
+msgstr "Industrie"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:58
+msgid "Instagram"
+msgstr "Instagram"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:59
+msgid "Leaf"
+msgstr "Feuille"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:60
+msgid "Leaf & Circle"
+msgstr "Feuille et cercle"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:61
+msgid "LED Lightbulb"
+msgstr "Ampoule LED"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:62
+msgid "Lightbulb 1"
+msgstr "Ampoule 1"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:63
+msgid "Like"
+msgstr "J'aime"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:64
+msgid "Link"
+msgstr "Lien"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:66
+msgid "List"
+msgstr "Liste"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:67
+msgid "Mail"
+msgstr "Courrier"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:68
+msgid "Menu arrow down"
+msgstr "Flèche menu bas"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:69
+msgid "Menu arrow up"
+msgstr "Flèche menu haut"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:70
+msgid "Minus"
+msgstr "Moins"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:71
+msgid "Motorcycle"
+msgstr "Moto"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:72
+msgid "News"
+msgstr "Actualités"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:73
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:74
+msgid "Opening quote"
+msgstr "Guillemet ouvrant"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:75
+msgid "PDF"
+msgstr "PDF"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:76
+msgid "Person"
+msgstr "Personne"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:77
+msgid "Person cap"
+msgstr "Personne casquette"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:78
+msgid "Person female"
+msgstr "Femme"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:79
+msgid "Person male"
+msgstr "Homme"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:80
+msgid "Phone"
+msgstr "Téléphone"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:81
+msgid "Play"
+msgstr "Lecture"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:82
+msgid "Plus"
+msgstr "Plus"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:83
+msgid "Podcast"
+msgstr "Podcast"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:84
+msgid "Print 1"
+msgstr "Imprimer 1"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:85
+msgid "Print 2"
+msgstr "Imprimer 2"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:86
+msgid "Search"
+msgstr "Recherche"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:87
+msgid "Shield"
+msgstr "Bouclier"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:88
+msgid "Sign & paper"
+msgstr "Signature et papier"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:89
+msgid "Sign & pencil"
+msgstr "Signature et crayon"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:90
+msgid "Stopwatch"
+msgstr "Chronomètre"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:91
+msgid "Validate 1"
+msgstr "Valider 1"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:92
+msgid "Validate 2"
+msgstr "Valider 2"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:93
+msgid "Victory"
+msgstr "Victoire"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:95
+msgid "Wind turbine"
+msgstr "Éolienne"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:96
+msgid "YouTube"
+msgstr "YouTube"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:97
+msgid "YouTube TV"
+msgstr "YouTube TV"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:98
+msgid "z-Sup: Activ'Route Logo"
+msgstr "z-Sup: Logo Activ'Route"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:99
+msgid "z-Sup: LDC Logo"
+msgstr "z-Sup: Logo LDC"
+
+#: inc/admin/options-page.php:98
+msgid "Available Blocks"
+msgstr "Blocs disponibles"
+
+#: inc/admin/options-page.php:116
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: inc/admin/options-page.php:123
+msgid "Automatic Cleanup"
+msgstr "Nettoyage automatique"
+
+#: inc/admin/options-page.php:131
+msgid "Automatic Anchors on"
+msgstr "Ancres automatiques sur"
+
+#: inc/admin/options-page.php:146
+msgid "Enable or disable blocks as needed. Disabled blocks will not be loaded."
+msgstr "Activez ou désactivez les blocs selon vos besoins. Les blocs désactivés ne seront pas chargés."
+
+#: inc/admin/options-page.php:163
+msgid "Enable this block in the editor"
+msgstr "Activer ce bloc dans l'éditeur"
+
+#: inc/admin/options-page.php:174
+msgid "Management and maintenance options for the plugin."
+msgstr "Options de gestion et maintenance de l'extension."
+
+#: inc/admin/options-page.php:187
+msgid "Delete all settings when uninstalling the plugin"
+msgstr "Supprimer tous les paramètres lors de la désinstallation du plugin"
+
+#: inc/admin/options-page.php:189
+msgid "If enabled, all settings will be permanently deleted when the plugin is removed."
+msgstr "Si activé, tous les réglages seront supprimés définitivement lors de la suppression du plugin."
+
+#: inc/admin/options-page.php:229
+msgid "Select content types where H2 anchors should be added automatically (requires the Auto Table of Contents block)."
+msgstr "Sélectionnez les types de contenu où les ancres H2 doivent être ajoutées automatiquement (nécessite le bloc Sommaire automatique)."
+
+#: inc/admin/options-page.php:247
+msgid "Settings saved successfully."
+msgstr "Paramètres enregistrés avec succès."
+
+#: inc/admin/options-page.php:260
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: inc/admin/options-page.php:265
+msgid "Information:"
+msgstr "Information :"
+
+#: inc/admin/options-page.php:265
+msgid "These settings help optimize performance by only loading the blocks you need."
+msgstr "Ces paramètres permettent d'optimiser les performances en ne chargeant que les blocs nécessaires."
+
+#. Plugin Name of the plugin
+#: gn-block-react.php
+msgid "GN - Block React"
+msgstr ""
+
+#. Description of the plugin
+#: gn-block-react.php
+msgid "Custom blocks for the project."
+msgstr "Blocs personnalisés pour le projet."
+
+#: inc/admin/options-page.php:22
+msgid "Share Buttons"
+msgstr "Boutons de partage"
+
+#: inc/admin/options-page.php:23
+msgid "Animated Counter"
+msgstr "Compteur animé"
+
+#: inc/admin/options-page.php:24
+msgid "Current Year"
+msgstr "Année en cours"
+
+#: inc/admin/options-page.php:25
+msgid "Icon Image"
+msgstr "Image Icones"
+
+#: inc/admin/options-page.php:26
+msgid "Image Video"
+msgstr "Image Vidéo"
+
+#: inc/admin/options-page.php:29
+msgid "Back to Top"
+msgstr "Retour vers le haut"
+
+#: inc/admin/options-page.php:30
+msgid "Swiper Slider"
+msgstr "Slider Swiper"
+
+#: inc/admin/options-page.php:31
+#: build/slider-image/index.js:1
+#: src/slider-image/edit.js:102
+msgid "Image Slider"
+msgstr "Slider d'images"
+
+#: inc/admin/options-page.php:32
+msgid "Auto Table of Contents"
+msgstr "Sommaire automatique"
+
+#: inc/admin/options-page.php:33
+msgid "Reading Time"
+msgstr "Temps de lecture"
+
+#: inc/admin/options-page.php:34
+msgid "Archive Title with Prefix and Suffix"
+msgstr "Titre archive avec préfixe et suffixe"
+
+#: build/annee-courante/index.js:1
+#: build/progression-scroll/index.js:1
+#: src/annee-courante/edit.js:27
+#: src/progression-scroll/edit.js:27
+msgid "Settings"
+msgstr "Paramètres"
+
+#: build/annee-courante/index.js:1
+#: src/annee-courante/edit.js:29
+msgid "Text before the year"
+msgstr "Texte avant l'année"
+
+#: build/annee-courante/index.js:1
+#: src/annee-courante/edit.js:34
+msgid "Text after the year"
+msgstr "Texte après l'année"
+
+#: build/image-video/index.js:1
+#: src/image-video/edit.js:157
+msgid "Editor notice: Don't forget to add the YouTube URL in the settings"
+msgstr "Note : N'oubliez pas d'ajouter l'URL YouTube dans les paramètres."
+
+#: build/annee-courante/block.json
+#: src/annee-courante/block.json
+msgctxt "block title"
+msgid "Current Year"
+msgstr "Année en cours"
+
+#: build/annee-courante/block.json
+#: src/annee-courante/block.json
+msgctxt "block description"
+msgid "Displays the current server year dynamically, with optional text before and after."
+msgstr "Affiche l'année du serveur dynamiquement, avec un texte optionnel avant et après."
+
+#: inc/admin/options-page.php:27
+msgid "Scroll Progress"
+msgstr "Progression du scroll"
+
+#: build/progression-scroll/index.js:1
+#: src/progression-scroll/edit.js:29
+msgid "Bar height (px)"
+msgstr "Hauteur de la barre (px)"
+
+#: build/progression-scroll/index.js:1
+#: src/progression-scroll/edit.js:37
+msgid "Show percentage label"
+msgstr "Afficher le label de pourcentage"
+
+#: build/progression-scroll/block.json
+#: src/progression-scroll/block.json
+msgctxt "block title"
+msgid "Scroll Progress"
+msgstr "Progression du scroll"
+
+#: build/progression-scroll/block.json
+#: src/progression-scroll/block.json
+msgctxt "block description"
+msgid "Displays a fixed horizontal progress bar at the bottom of the viewport, updated in real time as the user scrolls."
+msgstr "Affiche une barre de progression horizontale fixée en bas de la fenêtre, mise à jour en temps réel lors du défilement."
+
+#: build/progression-scroll/index.js:1
+#: src/progression-scroll/edit.js:43
+msgid "Color"
+msgstr "Couleur"
+
+#: build/progression-scroll/index.js:1
+#: src/progression-scroll/edit.js:48
+msgid "Bar color"
+msgstr "Couleur de la barre"
+
+#: build/progression-scroll/index.js:1
+#: src/progression-scroll/edit.js:57
+msgid "Editor notice: The scroll progress bar is fixed at the bottom of the viewport and only visible on the front-end."
+msgstr "Note : La barre de progression du scroll est fixée en bas de la fenêtre et n'est visible que sur le site public."
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:20
+msgid "AI ChatGPT"
+msgstr "IA ChatGPT"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:21
+msgid "AI Claude"
+msgstr "IA Claude"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:22
+msgid "AI Mistral"
+msgstr "IA Mistral"
+
+#: build/image-icone/index.js:1
+#: src/image-icone/edit.js:23
+msgid "AI Perplexity"
+msgstr "IA Perplexity"
+
+#: build/resume-ia/render.php:23
+#: src/resume-ia/render.php:23
+msgid "Summarize this article concisely, listing the 5 to 8 key points to remember for the reader. Use a professional and friendly tone, no more than 150 words."
+msgstr "Résume cet article de manière concise, en listant les 5 à 8 points clés à retenir pour le lecteur. Adopte un ton professionnel et bienveillant, ne dépasse pas 150 mots."
+
+#: build/resume-ia/render.php:75
+#: src/resume-ia/render.php:75
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:88
+msgid "Summarize this post with an AI service"
+msgstr "Résumer cet article avec un service IA"
+
+#: build/resume-ia/render.php:78
+#: src/resume-ia/render.php:78
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:90
+msgid "Summarize this post with:"
+msgstr "Résumer cet article avec :"
+
+#: build/resume-ia/render.php:89
+#: src/resume-ia/render.php:89
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:95
+msgid "Summarize with ChatGPT"
+msgstr "Résumer avec ChatGPT"
+
+#: build/resume-ia/render.php:102
+#: src/resume-ia/render.php:102
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:103
+msgid "Summarize with Claude"
+msgstr "Résumer avec Claude"
+
+#: build/resume-ia/render.php:115
+#: src/resume-ia/render.php:115
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:111
+msgid "Summarize with Mistral"
+msgstr "Résumer avec Mistral"
+
+#: build/resume-ia/render.php:128
+#: src/resume-ia/render.php:128
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:119
+msgid "Summarize with Perplexity"
+msgstr "Résumer avec Perplexity"
+
+#: inc/admin/options-page.php:28
+msgid "AI Summary"
+msgstr "Résumé IA"
+
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:27
+msgid "AI Services"
+msgstr "Services IA"
+
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:49
+msgid "Custom prompt"
+msgstr "Prompt personnalisé"
+
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:52
+msgid "Leave empty to use the default: \"Summarize this article concisely, listing the 5 to 8 key points to remember for the reader. Use a professional and friendly tone, no more than 150 words.\" — Title and URL are always appended automatically."
+msgstr "Laisser vide pour utiliser le prompt par défaut : « Résume cet article de manière concise, en listant les 5 à 8 points clés à retenir pour le lecteur. Adopte un ton professionnel et bienveillant, ne dépasse pas 150 mots. » — Le titre et l'URL sont toujours ajoutés automatiquement."
+
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:58
+msgid "URL Tracking"
+msgstr "Suivi URL"
+
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:60
+msgid "Enable UTM tracking"
+msgstr "Activer le suivi UTM"
+
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:63
+msgid "Appends utm_source (per service) and utm_medium to the post URL in the prompt."
+msgstr "Ajoute utm_source (par service) et utm_medium à l'URL de l'article dans le prompt."
+
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:67
+msgid "utm_medium"
+msgstr "utm_medium"
+
+#: build/resume-ia/index.js:1
+#: src/resume-ia/edit.js:78
+msgid "Space between buttons"
+msgstr "Espace entre les boutons"
+
+#: build/resume-ia/block.json
+#: src/resume-ia/block.json
+msgctxt "block title"
+msgid "AI Summary"
+msgstr "Résumé IA"
+
+#: build/resume-ia/block.json
+#: src/resume-ia/block.json
+msgctxt "block description"
+msgid "Summarize this post with an AI service"
+msgstr "Résumer cet article avec un service IA"
