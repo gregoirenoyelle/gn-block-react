@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gn2025/image-icone",
+  "version": "0.1.0",
+  "title": "Icon Image",
+  "category": "gn-block-content",
+  "icon": "buddicons-activity",
+  "description": "Add an icon",
+  "example": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": "ea11"
+    },
+    "link": {
+      "type": "string"
+    },
+    "targetBlank": {
+      "type": "boolean",
+      "default": false
+    },
+    "ariaLabel": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "background": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "multiple": true,
+    "className": true,
+    "__experimentalBorder": {
+      "radius": true,
+      "__experimentalDefaultControls": {
+        "radius": true
+      }
+    }
+  },
+  "textdomain": "gn-block-react",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

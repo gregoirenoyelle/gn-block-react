@@ -1,0 +1,89 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gn2025/slider",
+  "version": "0.4.0",
+  "title": "Swiper Slider",
+  "category": "gn-block-content",
+  "icon": "images-alt2",
+  "description": "Adds a slider that can integrate any block.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "className": true,
+    "anchor": true,
+    "spacing": {
+      "margin": true
+    }
+  },
+  "attributes": {
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "speed": {
+      "type": "number",
+      "default": 400
+    },
+    "delay": {
+      "type": "number",
+      "default": 3000
+    },
+    "navigationEnabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "paginationEnabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "scrollbarEnabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoplayEnabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoplayPauseOnHover": {
+      "type": "boolean",
+      "default": false
+    },
+    "slidesPerView": {
+      "type": "number",
+      "default": 1
+    },
+    "centeredSlides": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoHeight": {
+      "type": "boolean",
+      "default": false
+    },
+    "equalHeight": {
+      "type": "boolean",
+      "default": false
+    },
+    "spaceBetween": {
+      "type": "number",
+      "default": 40
+    },
+    "navigationEnabledMobile": {
+      "type": "boolean",
+      "default": false
+    },
+    "paginationEnabledMobile": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "textdomain": "gn-block-react",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "viewScript": "file:./view.js"
+}

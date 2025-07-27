@@ -1,0 +1,64 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gn2025/slider-image",
+  "version": "1.1.0",
+  "title": "Image Slider",
+  "category": "gn-block-content",
+  "icon": "images-alt",
+  "description": "Slider based on Swiffy Slider",
+  "example": {},
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true
+    },
+    "align": true,
+    "anchor": true,
+    "multiple": true,
+    "className": true
+  },
+  "attributes": {
+    "images": {
+      "type": "array",
+      "default": []
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "large"
+    },
+    "ratio": {
+      "type": "string",
+      "default": "16x9"
+    },
+    "hasAutoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasAutopause": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasVisibleNav": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasRevealEffect": {
+      "type": "boolean",
+      "default": false
+    },
+    "animationType": {
+      "type": "string",
+      "default": "slide"
+    },
+    "hasBorder": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "textdomain": "gn-block-react",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
