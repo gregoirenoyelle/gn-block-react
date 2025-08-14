@@ -39,6 +39,18 @@ function enqueue_assets(): void {
 		\filemtime( GNBLOCK_DIR . 'assets/css/icone.css' )
 	);
 
+	// Back to top block.
+	// Note: has_block() does not work in templates.
+	if ( ! \is_admin() ) {
+		\wp_enqueue_script(
+			'gn-block-react-retour-haut-js',
+			$plugin_url . 'assets/js/back-to-top.js',
+			array(),
+			\filemtime( GNBLOCK_DIR . 'assets/js/back-to-top.js' ),
+			true
+		);
+	}
+
 	// Slider block.
 	if ( ! \is_admin() && \has_block( 'gn2025/slider' ) ) {
 		\wp_enqueue_style(
@@ -89,6 +101,7 @@ function defer_scripts( string $tag, string $handle, string $src ): string {
 	$scripts_to_defer = array(
 		'gn-block-react-swiper-js',
 		'gn-block-react-swiffyslider-js',
+		'gn-block-react-retour-haut-js',
 	);
 
 	if ( \in_array( $handle, $scripts_to_defer, true ) ) {

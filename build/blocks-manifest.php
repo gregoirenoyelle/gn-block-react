@@ -57,6 +57,50 @@ return array(
 		'editorScript' => 'file:./index.js',
 		'render' => 'file:./render.php'
 	),
+	'retour-haut' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/retour-haut',
+		'version' => '0.1.0',
+		'title' => 'Back to Top',
+		'category' => 'gn-block-theme',
+		'icon' => 'insert-before',
+		'description' => 'Template button to go back to the top of the page.',
+		'example' => array(
+
+		),
+		'attributes' => array(
+			'rightPosition' => array(
+				'type' => 'number',
+				'default' => 15
+			),
+			'bottomPosition' => array(
+				'type' => 'number',
+				'default' => 15
+			),
+			'scrollTrigger' => array(
+				'type' => 'number',
+				'default' => 300
+			),
+			'iconSize' => array(
+				'type' => 'number',
+				'default' => 64
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'anchor' => true,
+			'align' => true,
+			'spacing' => array(
+				'padding' => true,
+				'margin' => true
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
+	),
 	'slider' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
