@@ -3,3 +3,10 @@ node_modules/
 .local-working/
 TODO.md
 *.log
+CLAUDE.md
+NOTES.md
+notes/
+create-block.js
+tools/
+.editorconfig
+.claudeignore
