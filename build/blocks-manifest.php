@@ -1,6 +1,64 @@
 <?php
 // This file is generated. Do not modify it manually.
 return array(
+	'boutons-partages' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/boutons-partages',
+		'version' => '0.1.0',
+		'title' => 'Share Buttons',
+		'category' => 'gn-block-theme',
+		'icon' => 'megaphone',
+		'description' => 'Choose share buttons',
+		'example' => array(
+
+		),
+		'attributes' => array(
+			'facebook' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'linkedin' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'whatsapp' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'email' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'copyLink' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'iconsGap' => array(
+				'type' => 'string',
+				'default' => '12px'
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'color' => array(
+				'text' => true,
+				'background' => false
+			),
+			'typography' => array(
+				'fontSize' => true
+			),
+			'spacing' => array(
+				'margin' => true
+			),
+			'multiple' => true,
+			'className' => true
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
+	),
 	'image-icone' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
