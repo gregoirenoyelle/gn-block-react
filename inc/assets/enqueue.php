@@ -39,6 +39,17 @@ function enqueue_assets(): void {
 		\filemtime( GNBLOCK_DIR . 'assets/css/icone.css' )
 	);
 
+	// Share buttons block - loaded on all singles except pages.
+	if ( ! \is_admin() && \is_singular() && ! \is_page() ) {
+		\wp_enqueue_script(
+			'gn-block-react-boutons-partages-js',
+			$plugin_url . 'assets/js/boutons-partages.js',
+			array(),
+			\filemtime( GNBLOCK_DIR . 'assets/js/boutons-partages.js' ),
+			true
+		);
+	}
+
 	// Back to top block.
 	// Note: has_block() does not work in templates.
 	if ( ! \is_admin() ) {
@@ -102,6 +113,7 @@ function defer_scripts( string $tag, string $handle, string $src ): string {
 		'gn-block-react-swiper-js',
 		'gn-block-react-swiffyslider-js',
 		'gn-block-react-retour-haut-js',
+		'gn-block-react-boutons-partages-js',
 	);
 
 	if ( \in_array( $handle, $scripts_to_defer, true ) ) {
