@@ -159,6 +159,49 @@ return array(
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
 	),
+	'temps-lecture' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/temps-lecture',
+		'version' => '0.1.0',
+		'title' => 'Reading Time',
+		'category' => 'gn-block-theme',
+		'icon' => 'clock',
+		'description' => 'Adds the reading time for the article',
+		'example' => array(
+
+		),
+		'attributes' => array(
+			'prefixText' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'timeUnit' => array(
+				'type' => 'string',
+				'default' => 'min.'
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'color' => array(
+				'text' => true,
+				'background' => false
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'__experimentalFontWeight' => true
+			),
+			'spacing' => array(
+				'margin' => true
+			),
+			'multiple' => true,
+			'className' => true
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
 	'slider' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
