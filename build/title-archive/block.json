@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gn2025/title-archive",
+  "version": "0.1.0",
+  "title": "Archive Title with Prefix and Suffix",
+  "category": "gn-block-theme",
+  "icon": "editor-textcolor",
+  "description": "Add a prefix and suffix to archive titles",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": true,
+    "alignWide": true,
+    "color": {
+      "background": true,
+      "text": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "attributes": {
+    "tagName": {
+      "type": "string",
+      "default": "h1"
+    },
+    "prefix": {
+      "type": "string",
+      "default": ""
+    },
+    "suffix": {
+      "type": "string",
+      "default": ""
+    },
+    "textAlign": {
+      "type": "string"
+    }
+  },
+  "textdomain": "gn-block-react",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

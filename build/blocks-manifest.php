@@ -159,6 +159,59 @@ return array(
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
 	),
+	'title-archive' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/title-archive',
+		'version' => '0.1.0',
+		'title' => 'Archive Title with Prefix and Suffix',
+		'category' => 'gn-block-theme',
+		'icon' => 'editor-textcolor',
+		'description' => 'Add a prefix and suffix to archive titles',
+		'example' => array(
+
+		),
+		'supports' => array(
+			'html' => false,
+			'align' => true,
+			'alignWide' => true,
+			'color' => array(
+				'background' => true,
+				'text' => true,
+				'link' => true
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'__experimentalFontFamily' => true,
+				'__experimentalFontWeight' => true
+			),
+			'spacing' => array(
+				'margin' => true,
+				'padding' => true
+			)
+		),
+		'attributes' => array(
+			'tagName' => array(
+				'type' => 'string',
+				'default' => 'h1'
+			),
+			'prefix' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'suffix' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'textAlign' => array(
+				'type' => 'string'
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
 	'temps-lecture' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
