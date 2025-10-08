@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       GN - Block React
  * Description:       Custom blocks for the project.
- * Version:           1.0.0
+ * Version:           2.0.0
  * Requires at least: 6.7
  * Requires PHP:      8.0
  * Author:            Grégoire Noyelle
@@ -46,4 +46,11 @@ function load_textdomain(): void {
 // Include plugin core files.
 require_once GNBLOCK_DIR . 'inc/assets/enqueue.php';
 require_once GNBLOCK_DIR . 'inc/blocks/categories-blocks.php';
+require_once GNBLOCK_DIR . 'inc/admin/options-page.php';
 require_once GNBLOCK_DIR . 'inc/blocks/blocks-manager.php';
+require_once GNBLOCK_DIR . 'inc/admin/plugin-activation.php';
+
+// Include special features based on enabled blocks.
+if ( \get_option( 'gn2025_enable_block_image_video', true ) ) {
+	require_once GNBLOCK_DIR . 'inc/features/video-embed.php';
+}

@@ -62,6 +62,17 @@ function enqueue_assets(): void {
 		);
 	}
 
+	// Image-video block.
+	if ( ! \is_admin() && \has_block( 'gn2025/image-video' ) ) {
+		\wp_enqueue_script(
+			'gn-block-react-image-video-js',
+			$plugin_url . 'assets/js/image-video.js',
+			array(),
+			\filemtime( GNBLOCK_DIR . 'assets/js/image-video.js' ),
+			true
+		);
+	}
+
 	// Slider block.
 	if ( ! \is_admin() && \has_block( 'gn2025/slider' ) ) {
 		\wp_enqueue_style(
@@ -114,6 +125,7 @@ function defer_scripts( string $tag, string $handle, string $src ): string {
 		'gn-block-react-swiffyslider-js',
 		'gn-block-react-retour-haut-js',
 		'gn-block-react-boutons-partages-js',
+		'gn-block-react-image-video-js',
 	);
 
 	if ( \in_array( $handle, $scripts_to_defer, true ) ) {
