@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gn2025/image-video",
+  "version": "0.1.0",
+  "title": "Image Video",
+  "category": "gn-block-theme",
+  "icon": "camera",
+  "description": "Trigger a video by clicking on an image",
+  "example": {},
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "align": true
+  },
+  "attributes": {
+    "imageId": {
+      "type": "number"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "iconColor": {
+      "type": "string"
+    },
+    "iconSize": {
+      "type": "string"
+    }
+  },
+  "textdomain": "gn-block-react",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

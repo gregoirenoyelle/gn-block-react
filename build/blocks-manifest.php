@@ -115,6 +115,52 @@ return array(
 		'editorScript' => 'file:./index.js',
 		'render' => 'file:./render.php'
 	),
+	'image-video' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/image-video',
+		'version' => '0.1.0',
+		'title' => 'Image Video',
+		'category' => 'gn-block-theme',
+		'icon' => 'camera',
+		'description' => 'Trigger a video by clicking on an image',
+		'example' => array(
+
+		),
+		'supports' => array(
+			'html' => false,
+			'spacing' => array(
+				'margin' => true,
+				'padding' => true
+			),
+			'align' => true
+		),
+		'attributes' => array(
+			'imageId' => array(
+				'type' => 'number'
+			),
+			'imageUrl' => array(
+				'type' => 'string'
+			),
+			'imageAlt' => array(
+				'type' => 'string'
+			),
+			'videoUrl' => array(
+				'type' => 'string'
+			),
+			'iconColor' => array(
+				'type' => 'string'
+			),
+			'iconSize' => array(
+				'type' => 'string'
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
+	),
 	'retour-haut' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
