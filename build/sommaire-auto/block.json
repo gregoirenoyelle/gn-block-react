@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gn2025/sommaire-auto",
+  "version": "0.1.0",
+  "title": "Auto Table of Contents",
+  "category": "gn-block-theme",
+  "icon": "list-view",
+  "description": "Automatic table of contents based on H2 headings",
+  "example": {},
+  "attributes": {
+    "prefixText": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "background": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontWeight": true,
+      "__experimentalTextTransform": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": false
+    }
+  },
+  "textdomain": "gn-block-react",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
