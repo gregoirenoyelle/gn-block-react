@@ -54,3 +54,7 @@ require_once GNBLOCK_DIR . 'inc/admin/plugin-activation.php';
 if ( \get_option( 'gn2025_enable_block_image_video', true ) ) {
 	require_once GNBLOCK_DIR . 'inc/features/video-embed.php';
 }
+
+if ( \get_option( 'gn2025_enable_block_sommaire_auto', true ) ) {
+	require_once GNBLOCK_DIR . 'inc/features/ancres-auto.php';
+}
