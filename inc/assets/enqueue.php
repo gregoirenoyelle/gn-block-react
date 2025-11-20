@@ -98,6 +98,17 @@ function enqueue_assets(): void {
 		);
 	}
 
+	// Animated counter block.
+	if ( ! \is_admin() && \has_block( 'gn2025/compteur-anime' ) ) {
+		\wp_enqueue_script(
+			'gn-block-react-compteur-anime-js',
+			$plugin_url . 'assets/js/compteur-anime.js',
+			array(),
+			\filemtime( GNBLOCK_DIR . 'assets/js/compteur-anime.js' ),
+			true
+		);
+	}
+
 	// Slider-image block.
 	if ( ! \is_admin() && \has_block( 'gn2025/slider-image' ) ) {
 		\wp_enqueue_script(
@@ -126,6 +137,7 @@ function defer_scripts( string $tag, string $handle, string $src ): string {
 		'gn-block-react-retour-haut-js',
 		'gn-block-react-boutons-partages-js',
 		'gn-block-react-image-video-js',
+		'gn-block-react-compteur-anime-js',
 	);
 
 	if ( \in_array( $handle, $scripts_to_defer, true ) ) {
