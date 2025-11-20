@@ -59,6 +59,64 @@ return array(
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
 	),
+	'compteur-anime' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/compteur-anime',
+		'version' => '0.1.0',
+		'title' => 'Animated Counter',
+		'category' => 'gn-block-content',
+		'icon' => 'backup',
+		'description' => 'An animated counter with visual effect',
+		'example' => array(
+
+		),
+		'supports' => array(
+			'html' => false,
+			'color' => array(
+				'text' => true,
+				'background' => false
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'__experimentalFontWeight' => true,
+				'fontFamily' => true,
+				'__experimentalFontFamily' => true
+			),
+			'spacing' => array(
+				'margin' => true
+			),
+			'multiple' => true,
+			'className' => true
+		),
+		'attributes' => array(
+			'debut' => array(
+				'type' => 'string',
+				'default' => '0'
+			),
+			'fin' => array(
+				'type' => 'string',
+				'default' => '100'
+			),
+			'plus' => array(
+				'type' => 'boolean',
+				'default' => false
+			),
+			'unite' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'vitesse' => array(
+				'type' => 'number',
+				'default' => 900
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
+	),
 	'image-icone' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
