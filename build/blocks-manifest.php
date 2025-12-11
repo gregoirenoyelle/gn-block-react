@@ -1,6 +1,49 @@
 <?php
 // This file is generated. Do not modify it manually.
 return array(
+	'annee-courante' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/annee-courante',
+		'version' => '0.1.0',
+		'title' => 'Current Year',
+		'category' => 'gn-block-content',
+		'icon' => 'calendar-alt',
+		'description' => 'Displays the current server year dynamically, with optional text before and after.',
+		'example' => array(
+
+		),
+		'supports' => array(
+			'html' => false,
+			'color' => array(
+				'text' => true,
+				'background' => true
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'fontFamily' => true,
+				'fontWeight' => true
+			),
+			'spacing' => array(
+				'padding' => true,
+				'margin' => true
+			)
+		),
+		'attributes' => array(
+			'textBefore' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'textAfter' => array(
+				'type' => 'string',
+				'default' => ''
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
 	'boutons-partages' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
