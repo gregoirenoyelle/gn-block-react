@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gn2025/annee-courante",
+  "version": "0.1.0",
+  "title": "Current Year",
+  "category": "gn-block-content",
+  "icon": "calendar-alt",
+  "description": "Displays the current server year dynamically, with optional text before and after.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "background": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "fontFamily": true,
+      "fontWeight": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true
+    }
+  },
+  "attributes": {
+    "textBefore": {
+      "type": "string",
+      "default": ""
+    },
+    "textAfter": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "gn-block-react",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
