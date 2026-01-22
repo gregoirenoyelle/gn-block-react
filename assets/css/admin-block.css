@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.editor-styles-wrapper .edit-notice {
+	display: flex;
+	background-color: transparent;
+	justify-content: start;
+}
+
+.editor-styles-wrapper .edit-notice p {
+	margin: 0;
+	padding: 12px;
+	margin-bottom: 15px;
+	border-left: 6px solid var(--wp-admin-theme-color);
+	font-size: 14px;
+	font-style: italic;
+}

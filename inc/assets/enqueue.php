@@ -50,6 +50,18 @@ function enqueue_assets(): void {
 		);
 	}
 
+	// Scroll progress block.
+	// Note: has_block() does not work in templates.
+	if ( ! \is_admin() ) {
+		\wp_enqueue_script(
+			'gn-block-react-progression-scroll-js',
+			$plugin_url . 'assets/js/progression-scroll.js',
+			array(),
+			\filemtime( GNBLOCK_DIR . 'assets/js/progression-scroll.js' ),
+			true
+		);
+	}
+
 	// Back to top block.
 	// Note: has_block() does not work in templates.
 	if ( ! \is_admin() ) {
@@ -138,6 +150,7 @@ function defer_scripts( string $tag, string $handle, string $src ): string {
 		'gn-block-react-boutons-partages-js',
 		'gn-block-react-image-video-js',
 		'gn-block-react-compteur-anime-js',
+		'gn-block-react-progression-scroll-js',
 	);
 
 	if ( \in_array( $handle, $scripts_to_defer, true ) ) {
