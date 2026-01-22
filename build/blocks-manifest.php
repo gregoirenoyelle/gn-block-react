@@ -262,6 +262,40 @@ return array(
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
 	),
+	'progression-scroll' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/progression-scroll',
+		'version' => '0.1.0',
+		'title' => 'Scroll Progress',
+		'category' => 'gn-block-theme',
+		'icon' => 'arrow-down',
+		'description' => 'Displays a fixed horizontal progress bar at the bottom of the viewport, updated in real time as the user scrolls.',
+		'example' => array(
+
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'attributes' => array(
+			'showLabel' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'barColor' => array(
+				'type' => 'string',
+				'default' => '#0073aa'
+			),
+			'barHeight' => array(
+				'type' => 'number',
+				'default' => 4
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
+	),
 	'retour-haut' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
