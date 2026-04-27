@@ -296,6 +296,70 @@ return array(
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
 	),
+	'resume-ia' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/resume-ia',
+		'version' => '0.1.0',
+		'title' => 'AI Summary',
+		'category' => 'gn-block-content',
+		'icon' => 'editor-ol',
+		'description' => 'Summarize this post with an AI service',
+		'example' => array(
+
+		),
+		'supports' => array(
+			'html' => false,
+			'color' => array(
+				'text' => true,
+				'background' => false,
+				'link' => true
+			),
+			'typography' => array(
+				'fontSize' => true
+			),
+			'spacing' => array(
+				'margin' => true,
+				'blockGap' => true
+			),
+			'multiple' => true,
+			'className' => true
+		),
+		'attributes' => array(
+			'chatgpt' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'claude' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'mistral' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'perplexity' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'promptText' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'enableUtm' => array(
+				'type' => 'boolean',
+				'default' => false
+			),
+			'utmMedium' => array(
+				'type' => 'string',
+				'default' => 'ai_share'
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
+	),
 	'retour-haut' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
