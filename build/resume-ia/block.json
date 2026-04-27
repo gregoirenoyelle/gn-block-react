@@ -1,0 +1,62 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gn2025/resume-ia",
+  "version": "0.1.0",
+  "title": "AI Summary",
+  "category": "gn-block-content",
+  "icon": "editor-ol",
+  "description": "Summarize this post with an AI service",
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "background": false,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true
+    },
+    "spacing": {
+      "margin": true,
+      "blockGap": true
+    },
+    "multiple": true,
+    "className": true
+  },
+  "attributes": {
+    "chatgpt": {
+      "type": "boolean",
+      "default": true
+    },
+    "claude": {
+      "type": "boolean",
+      "default": true
+    },
+    "mistral": {
+      "type": "boolean",
+      "default": true
+    },
+    "perplexity": {
+      "type": "boolean",
+      "default": true
+    },
+    "promptText": {
+      "type": "string",
+      "default": ""
+    },
+    "enableUtm": {
+      "type": "boolean",
+      "default": false
+    },
+    "utmMedium": {
+      "type": "string",
+      "default": "ai_share"
+    }
+  },
+  "textdomain": "gn-block-react",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
