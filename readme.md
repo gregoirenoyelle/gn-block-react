@@ -110,7 +110,7 @@ Advanced image slider using Swiper library.
 - **Category**: Content
 - **Type**: Static (view.js)
 - **Features**: Multiple slides, navigation, pagination, autoplay
-- **Library**: Swiper 11.1.15
+- **Library**: Swiper 12.1.3
 
 ### 10. Image Slider (slider-image)
 
@@ -247,12 +247,10 @@ Custom icon font "Icones Font" uses hexadecimal codes (e.g., `ea0b` for play ico
 
 ### External Libraries
 
-- **Swiper**: v11.1.15 (CDN downloaded to assets)
+- **Swiper**: v12.1.3 (npm installed, copied to assets)
 - **SwiffySlider**: Latest version
 
-Update Swiper: `npm run update-swiper [version]` (local development only)
-
-**Note**: The `update-swiper.js` script is for local development only and should never be run in production or CI/CD environments. It downloads Swiper assets from jsdelivr CDN without integrity verification.
+Update Swiper: `npm run update-swiper` (local development only — installs latest via npm and copies to assets).
 
 ## Support
 
