@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Register and enqueue CSS and JS assets for custom blocks in admin and front-end.
  *
- * @since 1.0.0
+ * @since 2.0.0
  * @return void
  */
 function enqueue_assets(): void {
@@ -31,21 +31,14 @@ function enqueue_assets(): void {
 		\filemtime( GNBLOCK_DIR . 'assets/css/font.css' )
 	);
 
-	// Icon block styles.
-	\wp_enqueue_style(
-		'gn-block-react-icone-css',
-		$plugin_url . 'assets/css/icone.css',
-		array(),
-		\filemtime( GNBLOCK_DIR . 'assets/css/icone.css' )
-	);
-
-	// Share buttons block - loaded on all singles except pages.
-	if ( ! \is_admin() && \is_singular() && ! \is_page() ) {
+	// Back to top block.
+	// Note: has_block() does not work in templates.
+	if ( ! \is_admin() ) {
 		\wp_enqueue_script(
-			'gn-block-react-boutons-partages-js',
-			$plugin_url . 'assets/js/boutons-partages.js',
+			'gn-block-react-retour-haut-js',
+			$plugin_url . 'assets/js/back-to-top.js',
 			array(),
-			\filemtime( GNBLOCK_DIR . 'assets/js/boutons-partages.js' ),
+			\filemtime( GNBLOCK_DIR . 'assets/js/back-to-top.js' ),
 			true
 		);
 	}
@@ -62,14 +55,21 @@ function enqueue_assets(): void {
 		);
 	}
 
-	// Back to top block.
-	// Note: has_block() does not work in templates.
-	if ( ! \is_admin() ) {
+	// Icon block and share buttons.
+	\wp_enqueue_style(
+		'gn-block-react-icone-css',
+		$plugin_url . 'assets/css/icone.css',
+		array(),
+		\filemtime( GNBLOCK_DIR . 'assets/css/icone.css' )
+	);
+
+	// Share buttons block - loaded on all singles except pages.
+	if ( ! \is_admin() && \is_singular() && ! \is_page() ) {
 		\wp_enqueue_script(
-			'gn-block-react-retour-haut-js',
-			$plugin_url . 'assets/js/back-to-top.js',
+			'gn-block-react-boutons-partages-js',
+			$plugin_url . 'assets/js/boutons-partages.js',
 			array(),
-			\filemtime( GNBLOCK_DIR . 'assets/js/back-to-top.js' ),
+			\filemtime( GNBLOCK_DIR . 'assets/js/boutons-partages.js' ),
 			true
 		);
 	}
@@ -110,17 +110,6 @@ function enqueue_assets(): void {
 		);
 	}
 
-	// Animated counter block.
-	if ( ! \is_admin() && \has_block( 'gn2025/compteur-anime' ) ) {
-		\wp_enqueue_script(
-			'gn-block-react-compteur-anime-js',
-			$plugin_url . 'assets/js/compteur-anime.js',
-			array(),
-			\filemtime( GNBLOCK_DIR . 'assets/js/compteur-anime.js' ),
-			true
-		);
-	}
-
 	// Slider-image block.
 	if ( ! \is_admin() && \has_block( 'gn2025/slider-image' ) ) {
 		\wp_enqueue_script(
@@ -131,12 +120,38 @@ function enqueue_assets(): void {
 			true
 		);
 	}
+
+	// Animated counter block.
+	if ( ! \is_admin() && \has_block( 'gn2025/compteur-anime' ) ) {
+		\wp_enqueue_script(
+			'gn-block-react-compteur-anime-js',
+			$plugin_url . 'assets/js/compteur-anime.js',
+			array(),
+			\filemtime( GNBLOCK_DIR . 'assets/js/compteur-anime.js' ),
+			true
+		);
+	}
+}
+
+/**
+ * Enqueue admin styles for block editor.
+ *
+ * @since 2.0.0
+ * @return void
+ */
+function enqueue_admin_assets(): void {
+	\wp_enqueue_style(
+		'gn-block-react-admin-block',
+		GNBLOCK_URL . 'assets/css/admin-block.css',
+		array(),
+		\filemtime( GNBLOCK_DIR . 'assets/css/admin-block.css' )
+	);
 }
 
 /**
  * Add defer attribute to JS scripts.
  *
- * @since 1.0.0
+ * @since 2.0.0
  * @param string $tag    Script HTML tag.
  * @param string $handle Script handle.
  * @param string $src    Script source URL.
@@ -167,7 +182,7 @@ function defer_scripts( string $tag, string $handle, string $src ): string {
  * Set script translations for Gutenberg blocks.
  * Loads JSON translation files for JavaScript in the block editor.
  *
- * @since 1.0.0
+ * @since 2.0.0
  * @return void
  */
 function set_script_translations(): void {
@@ -210,5 +225,6 @@ function set_script_translations(): void {
 
 // Hooks
 \add_action( 'enqueue_block_assets', __NAMESPACE__ . '\\enqueue_assets' );
+\add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\\enqueue_admin_assets' );
 \add_filter( 'script_loader_tag', __NAMESPACE__ . '\\defer_scripts', 10, 3 );
 \add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\\set_script_translations', 999 );

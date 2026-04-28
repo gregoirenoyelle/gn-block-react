@@ -11,7 +11,7 @@ return array(
 		'icon' => 'calendar-alt',
 		'description' => 'Displays the current server year dynamically, with optional text before and after.',
 		'example' => array(
-
+			
 		),
 		'supports' => array(
 			'html' => false,
@@ -54,7 +54,7 @@ return array(
 		'icon' => 'megaphone',
 		'description' => 'Choose share buttons',
 		'example' => array(
-
+			
 		),
 		'attributes' => array(
 			'facebook' => array(
@@ -112,7 +112,7 @@ return array(
 		'icon' => 'backup',
 		'description' => 'An animated counter with visual effect',
 		'example' => array(
-
+			
 		),
 		'supports' => array(
 			'html' => false,
@@ -170,7 +170,7 @@ return array(
 		'icon' => 'buddicons-activity',
 		'description' => 'Add an icon',
 		'example' => array(
-
+			
 		),
 		'attributes' => array(
 			'icon' => array(
@@ -226,7 +226,7 @@ return array(
 		'icon' => 'camera',
 		'description' => 'Trigger a video by clicking on an image',
 		'example' => array(
-
+			
 		),
 		'supports' => array(
 			'html' => false,
@@ -272,7 +272,7 @@ return array(
 		'icon' => 'arrow-down',
 		'description' => 'Displays a fixed horizontal progress bar at the bottom of the viewport, updated in real time as the user scrolls.',
 		'example' => array(
-
+			
 		),
 		'supports' => array(
 			'html' => false
@@ -306,7 +306,7 @@ return array(
 		'icon' => 'editor-ol',
 		'description' => 'Summarize this post with an AI service',
 		'example' => array(
-
+			
 		),
 		'supports' => array(
 			'html' => false,
@@ -370,7 +370,7 @@ return array(
 		'icon' => 'insert-before',
 		'description' => 'Template button to go back to the top of the page.',
 		'example' => array(
-
+			
 		),
 		'attributes' => array(
 			'rightPosition' => array(
@@ -404,143 +404,6 @@ return array(
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
 	),
-	'sommaire-auto' => array(
-		'$schema' => 'https://schemas.wp.org/trunk/block.json',
-		'apiVersion' => 3,
-		'name' => 'gn2025/sommaire-auto',
-		'version' => '0.1.0',
-		'title' => 'Auto Table of Contents',
-		'category' => 'gn-block-theme',
-		'icon' => 'list-view',
-		'description' => 'Automatic table of contents based on H2 headings',
-		'example' => array(
-
-		),
-		'attributes' => array(
-			'prefixText' => array(
-				'type' => 'string',
-				'default' => ''
-			)
-		),
-		'supports' => array(
-			'html' => false,
-			'color' => array(
-				'text' => true,
-				'background' => true
-			),
-			'typography' => array(
-				'fontSize' => true,
-				'lineHeight' => true,
-				'__experimentalFontWeight' => true,
-				'__experimentalTextTransform' => true
-			),
-			'spacing' => array(
-				'margin' => true,
-				'padding' => false
-			)
-		),
-		'textdomain' => 'gn-block-react',
-		'editorScript' => 'file:./index.js',
-		'editorStyle' => 'file:./index.css',
-		'style' => 'file:./style-index.css',
-		'render' => 'file:./render.php'
-	),
-	'title-archive' => array(
-		'$schema' => 'https://schemas.wp.org/trunk/block.json',
-		'apiVersion' => 3,
-		'name' => 'gn2025/title-archive',
-		'version' => '0.1.0',
-		'title' => 'Archive Title with Prefix and Suffix',
-		'category' => 'gn-block-theme',
-		'icon' => 'editor-textcolor',
-		'description' => 'Add a prefix and suffix to archive titles',
-		'example' => array(
-
-		),
-		'supports' => array(
-			'html' => false,
-			'align' => true,
-			'alignWide' => true,
-			'color' => array(
-				'background' => true,
-				'text' => true,
-				'link' => true
-			),
-			'typography' => array(
-				'fontSize' => true,
-				'lineHeight' => true,
-				'__experimentalFontFamily' => true,
-				'__experimentalFontWeight' => true
-			),
-			'spacing' => array(
-				'margin' => true,
-				'padding' => true
-			)
-		),
-		'attributes' => array(
-			'tagName' => array(
-				'type' => 'string',
-				'default' => 'h1'
-			),
-			'prefix' => array(
-				'type' => 'string',
-				'default' => ''
-			),
-			'suffix' => array(
-				'type' => 'string',
-				'default' => ''
-			),
-			'textAlign' => array(
-				'type' => 'string'
-			)
-		),
-		'textdomain' => 'gn-block-react',
-		'editorScript' => 'file:./index.js',
-		'render' => 'file:./render.php'
-	),
-	'temps-lecture' => array(
-		'$schema' => 'https://schemas.wp.org/trunk/block.json',
-		'apiVersion' => 3,
-		'name' => 'gn2025/temps-lecture',
-		'version' => '0.1.0',
-		'title' => 'Reading Time',
-		'category' => 'gn-block-theme',
-		'icon' => 'clock',
-		'description' => 'Adds the reading time for the article',
-		'example' => array(
-
-		),
-		'attributes' => array(
-			'prefixText' => array(
-				'type' => 'string',
-				'default' => ''
-			),
-			'timeUnit' => array(
-				'type' => 'string',
-				'default' => 'min.'
-			)
-		),
-		'supports' => array(
-			'html' => false,
-			'color' => array(
-				'text' => true,
-				'background' => false
-			),
-			'typography' => array(
-				'fontSize' => true,
-				'lineHeight' => true,
-				'__experimentalFontWeight' => true
-			),
-			'spacing' => array(
-				'margin' => true
-			),
-			'multiple' => true,
-			'className' => true
-		),
-		'textdomain' => 'gn-block-react',
-		'editorScript' => 'file:./index.js',
-		'render' => 'file:./render.php'
-	),
 	'slider' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
@@ -551,7 +414,7 @@ return array(
 		'icon' => 'images-alt2',
 		'description' => 'Adds a slider that can integrate any block.',
 		'example' => array(
-
+			
 		),
 		'supports' => array(
 			'html' => false,
@@ -642,7 +505,7 @@ return array(
 		'icon' => 'images-alt',
 		'description' => 'Slider based on Swiffy Slider',
 		'example' => array(
-
+			
 		),
 		'supports' => array(
 			'html' => false,
@@ -658,7 +521,7 @@ return array(
 			'images' => array(
 				'type' => 'array',
 				'default' => array(
-
+					
 				)
 			),
 			'imageSize' => array(
@@ -700,4 +563,141 @@ return array(
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
 	),
+	'sommaire-auto' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/sommaire-auto',
+		'version' => '0.1.0',
+		'title' => 'Auto Table of Contents',
+		'category' => 'gn-block-theme',
+		'icon' => 'list-view',
+		'description' => 'Automatic table of contents based on H2 headings',
+		'example' => array(
+			
+		),
+		'attributes' => array(
+			'prefixText' => array(
+				'type' => 'string',
+				'default' => ''
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'color' => array(
+				'text' => true,
+				'background' => true
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'__experimentalFontWeight' => true,
+				'__experimentalTextTransform' => true
+			),
+			'spacing' => array(
+				'margin' => true,
+				'padding' => false
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
+	),
+	'temps-lecture' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/temps-lecture',
+		'version' => '0.1.0',
+		'title' => 'Reading Time',
+		'category' => 'gn-block-theme',
+		'icon' => 'clock',
+		'description' => 'Adds the reading time for the article',
+		'example' => array(
+			
+		),
+		'attributes' => array(
+			'prefixText' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'timeUnit' => array(
+				'type' => 'string',
+				'default' => 'min.'
+			)
+		),
+		'supports' => array(
+			'html' => false,
+			'color' => array(
+				'text' => true,
+				'background' => false
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'__experimentalFontWeight' => true
+			),
+			'spacing' => array(
+				'margin' => true
+			),
+			'multiple' => true,
+			'className' => true
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
+	'title-archive' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'gn2025/title-archive',
+		'version' => '0.1.0',
+		'title' => 'Archive Title with Prefix and Suffix',
+		'category' => 'gn-block-theme',
+		'icon' => 'editor-textcolor',
+		'description' => 'Add a prefix and suffix to archive titles',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false,
+			'align' => true,
+			'alignWide' => true,
+			'color' => array(
+				'background' => true,
+				'text' => true,
+				'link' => true
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'__experimentalFontFamily' => true,
+				'__experimentalFontWeight' => true
+			),
+			'spacing' => array(
+				'margin' => true,
+				'padding' => true
+			)
+		),
+		'attributes' => array(
+			'tagName' => array(
+				'type' => 'string',
+				'default' => 'h1'
+			),
+			'prefix' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'suffix' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'textAlign' => array(
+				'type' => 'string'
+			)
+		),
+		'textdomain' => 'gn-block-react',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	)
 );

@@ -26,14 +26,19 @@ function cleanup_on_uninstall(): void {
 	}
 
 	$available_blocks = array(
-		'boutons-partages' => 'Share Buttons',
-		'image-icone'      => 'Icon Image',
-		'image-video'      => 'Image Video',
-		'retour-haut'      => 'Back to Top',
-		'slider'           => 'Swiper Slider',
-		'slider-image'     => 'Image Slider',
-		'temps-lecture'    => 'Reading Time',
-		'title-archive'    => 'Archive Title',
+		'boutons-partages' => 'Boutons de partage',
+		'compteur-anime'   => 'Compteur animé',
+		'annee-courante'   => 'Current Year',
+		'image-icone'      => 'Image Icones',
+		'image-video'      => 'Image vidéo',
+		'progression-scroll' => 'Scroll Progress',
+		'resume-ia'        => 'AI Summary',
+		'retour-haut'      => 'Retour vers le haut',
+		'slider'           => 'Slider Swiper',
+		'slider-image'     => 'Slider Image (GN)',
+		'sommaire-auto'    => 'Sommaire automatique',
+		'temps-lecture'    => 'Temps de lecture',
+		'title-archive'    => 'Titre archive avec préfixe et suffixe',
 	);
 
 	foreach ( $available_blocks as $block_folder => $block_title ) {
@@ -42,6 +47,7 @@ function cleanup_on_uninstall(): void {
 	}
 
 	\delete_option( 'gn2025_remove_data_on_uninstall' );
+	\delete_option( 'gn2025_ancres_post_types' );
 }
 
 cleanup_on_uninstall();

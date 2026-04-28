@@ -29,7 +29,7 @@ define( 'GNBLOCK_URL', plugin_dir_url( __FILE__ ) );
 /**
  * Load plugin textdomain for translations.
  *
- * @since 1.0.0
+ * @since 2.0.0
  * @return void
  */
 function load_textdomain(): void {
