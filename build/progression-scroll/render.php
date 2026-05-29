@@ -35,6 +35,7 @@ $block_wrapper_attributes = get_block_wrapper_attributes(
 );
 ?>
 
+<span data-scroll-end aria-hidden="true" style="display:block;height:0;overflow:hidden;"></span>
 <div <?php echo $block_wrapper_attributes; ?> aria-hidden="true">
 	<div class="gn-scroll-progress__track" style="<?php echo esc_attr( $track_style ); ?>">
 		<div class="gn-scroll-progress__bar" data-scroll-bar></div>
