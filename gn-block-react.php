@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       GN - Block React
  * Description:       Custom blocks for the project.
- * Version:           2.2.2
+ * Version:           2.2.3
  * Requires at least: 6.7
  * Requires PHP:      8.0
  * Author:            Grégoire Noyelle
