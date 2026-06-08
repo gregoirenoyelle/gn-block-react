@@ -77,6 +77,10 @@ return array(
 				'type' => 'boolean',
 				'default' => true
 			),
+			'print' => array(
+				'type' => 'boolean',
+				'default' => false
+			),
 			'iconsGap' => array(
 				'type' => 'string',
 				'default' => '12px'

@@ -21,6 +21,7 @@ $linkedin = isset($attributes['linkedin']) ? $attributes['linkedin'] : true;
 $whatsapp = isset($attributes['whatsapp']) ? $attributes['whatsapp'] : true;
 $email = isset($attributes['email']) ? $attributes['email'] : true;
 $copyLink = isset($attributes['copyLink']) ? $attributes['copyLink'] : true;
+$print    = isset($attributes['print']) ? $attributes['print'] : false;
 $iconsGap = isset($attributes['iconsGap']) ? $attributes['iconsGap'] : '12px';
 
 // Define icons.
@@ -29,7 +30,8 @@ $icons = [
     'linkedin' => 'ea0c',
     'whatsapp' => 'ea33',
     'email' => 'ea13',
-    'copy' => 'ea35'
+    'copy' => 'ea35',
+    'print' => 'ea0f'
 ];
 
 // Inline style for gap.
@@ -98,6 +100,18 @@ $icon_class = 'gn-block-icone gn-block-icone-partage';
 		   title="<?php esc_attr_e( 'Copy link', 'gn-block-react' ); ?>">
 			<i class="<?php echo $icon_class; ?>">
 				<?php echo html_entity_decode( '&#x' . $icons['copy'] . ';', ENT_COMPAT, 'UTF-8' ); ?>
+			</i>
+		</a>
+	<?php endif; ?>
+
+	<?php if ( $print ) : ?>
+		<a class="gn-block-link-icone share-print"
+		   href="#"
+		   onclick="window.print(); return false;"
+		   aria-label="<?php esc_attr_e( 'Print this page', 'gn-block-react' ); ?>"
+		   title="<?php esc_attr_e( 'Print this page', 'gn-block-react' ); ?>">
+			<i class="<?php echo $icon_class; ?>">
+				<?php echo html_entity_decode( '&#x' . $icons['print'] . ';', ENT_COMPAT, 'UTF-8' ); ?>
 			</i>
 		</a>
 	<?php endif; ?>

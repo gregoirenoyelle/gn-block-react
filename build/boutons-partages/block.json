@@ -29,6 +29,10 @@
       "type": "boolean",
       "default": true
     },
+    "print": {
+      "type": "boolean",
+      "default": false
+    },
     "iconsGap": {
       "type": "string",
       "default": "12px"
